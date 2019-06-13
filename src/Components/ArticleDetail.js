@@ -10,7 +10,7 @@ class ArticleDetail extends Component {
             <div className="container text-center my-5">
                 <div className="row">
                     <div className="col-12">
-                        <TextDetail />
+                        <TextDetail  />
                     </div>
                     <div className="col-12">
                         <Comment />

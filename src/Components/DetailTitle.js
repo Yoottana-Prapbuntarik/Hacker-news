@@ -4,7 +4,9 @@ export default class DetailTitle extends Component {
     render() {
         return (
             <div>
-                My YC app: Dropbox - Throw away your USB drive
+                <p className="diplay-3">
+                {this.props.detail}
+                </p>
             </div>
         )
     }

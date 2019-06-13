@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 
-export default class DateTime extends Component {
+class DateTime extends Component {
     render() {
         return (
             <div>
-                12/01/58
+                <h3>DateTime</h3>
+                {this.props.date}
             </div>
         )
     }
 }
+export default DateTime;
