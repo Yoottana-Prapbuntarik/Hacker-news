@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export class TextDetail extends Component {
+class TextDetail extends Component {
     render() {
         return (
-            <div>
-                Text Detail
+            <div className="mt-2">
+                {this.props.Text}
             </div>
         )
     }
